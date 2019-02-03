@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="827070af-0ec8-4d03-9440-bcb4e4768e39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/artifacts/aop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/out/production/aop/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/out/production/aop/com/agharibi/app/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/out/production/aop/com/agharibi/aspect/Aspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/src/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/src/com/agharibi/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/src/com/agharibi/aspect/Aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/apacheproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apacheproject/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apo-annotations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collections/src/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/CardStackApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/ContactManagerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/MotorcycleOilChangeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/SnowbirdLiftApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/TrainLinkedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/hashes/BasicHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/hashes/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/lists/BasicLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/lists/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/queues/BasicQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/queues/ListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/queues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/stacks/BasicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/stacks/ListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/stacks/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/trees/BasicBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/trees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/alg/binarysearch/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/alg/recursion/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/alg/selectionsort/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/alg/selectionsort/selectionsort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/algo/insertion/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/algo/insertion/insertionSort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/algo/insertion/insertionalgo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/bst/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/bst/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/bst/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/bst/node_with_children.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/bst/print_bst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/circularLinkedList/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/circularLinkedList/CircularLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/circularLinkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/doublyLinkedList/DoublyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/doublyLinkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/BetterApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/BetterGraph$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/BetterGraph$Vertex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/BetterGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/graphs/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/hashtable/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/hashtable/HashTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/heap/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/heap/Heap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/heap/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/linkedList/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/linkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/queue/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/queue/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/singlyLinkedList/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/singlyLinkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/singlyLinkedList/SinglyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/stack/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/ds/stack/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/out/production/stacks/parctice/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/alg/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/alg/recursion/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/alg/selectionsort/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/alg/selectionsort/selectionsort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/algo/insertion/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/algo/insertion/insertionSort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/algo/insertion/insertionalgo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/bst/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/bst/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/bst/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/bst/node_with_children.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/bst/print_bst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/circularLinkedList/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/circularLinkedList/CircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/circularLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/doublyLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/graphs/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/graphs/BetterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/graphs/BetterGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/hashtable/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/heap/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/heap/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/linkedList/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/queue/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/singlyLinkedList/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/singlyLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/stack/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/ds/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/src/parctice/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imtiaz/stacks/stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter2/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter2/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/FilterUsingReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/MapUsingReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/StringExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter3/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter4/ArtistsFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter4/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter4/PerformanceFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter4/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter5/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter5/GroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter5/LongestName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter5/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter5/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter6/BuggyReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter6/OptimisationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter6/OptimisationExampleFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter6/SerialToParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter6/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter9/ArtistAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter9/BlockingArtistAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter9/CallbackArtistAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter9/CompletableFutureArtistAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/answers/chapter9/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/Chapter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/MusicChapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/SampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter1/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter2/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter2/CaptureCompileError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/Decisions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/GeneratingStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/Iteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/Refactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter3/StreamExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Carriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/ChildImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Jukebox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/MusicalCarriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/OrderDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/OrderImperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/OrderStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/OverridingChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/OverridingParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/ParentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Primitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter4/Rockable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/CollectorExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/Niceties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/StringCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/StringCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/StringExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/mutable_custom/AlbumSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/mutable_custom/AlbumSalesCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/mutable_custom/AlbumSalesReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/mutable_custom/CollectorExpansions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter5/mutable_custom/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/ArrayExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/DiceRolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/IntegerSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/ManualDiceRolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/MovingAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter6/WordCounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter7/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/DependencyInversionPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/HeadingLookupException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/OpenClosedPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/SingleResponsibilityPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Close.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Macro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Open.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/command/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/observer/Aliens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/observer/LandingObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/observer/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/observer/Nasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/strategy/CompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/strategy/Compressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/strategy/GzipCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/strategy/ZipCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/ApplicationDenied.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/lambdas/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/lambdas/CompanyLoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/lambdas/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/lambdas/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/traditional/CompanyLoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/traditional/EmployeeLoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/traditional/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter8/template_method/traditional/PersonalLoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/AlbumLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/AlbumLookupException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/CompletableAlbumLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/FutureAlbumLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/examples/chapter9/RxExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/ExerciseNotCompletedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter2/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter2/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/FilterUsingReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/MapUsingReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/StringExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter3/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter4/Artists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter4/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter4/PerformanceFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter4/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter5/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter5/GroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter5/LongestName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter5/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter5/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter6/BuggyReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter6/OptimisationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter6/SerialToParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter6/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter9/ArtistAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter9/BlockingArtistAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter9/CallbackArtistAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter9/CompletableFutureArtistAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/java/com/insightfullogic/java8/exercises/chapter9/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/resources/com/insightfullogic/java8/examples/chapter02/Function.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/main/resources/com/insightfullogic/java8/examples/chapter6/huckleberry_finn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter2/Question2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter3/FilterUsingReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter3/MapUsingReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter3/Question1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter3/Question2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter3/StringExercisesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter4/ArtistsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter4/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter5/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter5/GroupingByTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter5/LongestNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter5/WordCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter6/BuggyReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter6/SerialToParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter9/ArtistAnalyzerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter9/BlockingArtistAnalyzerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/answers/chapter9/FakeLookupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter1/TestPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter2/LambdaExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter2/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter3/HigherOrderFunctionExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter3/IterationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter3/RefactorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter3/StreamExercisesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter4/MusicalCarriageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter4/OptionalExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter4/PrimitivesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter4/TestDefaultSubClassing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter4/TestOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter5/EncounterOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter5/StringCollectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter5/StringCombinerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter5/StringExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter6/ArrayExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter6/MovingAverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter7/OrderDomainExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter7/TestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/DependencyInversionPrincipleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/SingleResponsibilityPrincipleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/command/MacrosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/command/MockEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/Lets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/Specification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/Suite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/example/StackSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/expectations/BoundExpectation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/expectations/CollectionExpectation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/expectations/Expect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/ConsoleFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/ReportFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/SpecificationReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/lambdabehave/reporting/SuiteReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter8/template_method/TraditionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter9/AlbumLookupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/examples/chapter9/RxExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter2/Question2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter3/FilterUsingReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter3/MapUsingReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter3/Question1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter3/Question2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter3/StringExercisesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter4/ArtistsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter4/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter5/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter5/GroupingByTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter5/LongestNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter5/WordCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter6/BuggyReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter6/SerialToParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter9/ArtistAnalyzerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter9/BlockingArtistAnalyzerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/java/com/insightfullogic/java8/exercises/chapter9/FakeLookupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-8-lambdas-exercises-master/src/test/resources/com/insightfullogic/java8/examples/chapter8/test_file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_01/demo_03/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_02/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_03/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_03/demo_02/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_04/demo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_04/demo/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_04/demo/Worker2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_05/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_06/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_07/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_08/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_08/demo_01/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_09/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_09/demo_01/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_10/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_10/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_10/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_11/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_11/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_11/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_12/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_12/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_13/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_13/demo_02/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-multi-threading/src/tutorial_14/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/StreamParallelApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/data/StudentDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_01/MyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/BiConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/BiFunctionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/BinaryOperatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/ConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/FunctionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/PredicateAndConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/PredicateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/SupplierApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_02/UnaryOperatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_03/ConstructorRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_03/MethodRefApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_03/MethodRefApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_04/LambdaVarsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamFactoryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamFlatMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamMapReduceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamMinMaxApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamReduceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_05/StreamSortedApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_06/AggregateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_06/BoxingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_06/NumericRangeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_06/NumericStreamApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/CountingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/GroupByApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/JoiningApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/MappApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/MaxMinApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/PartitioningApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_07/SummingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/demo_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/java8Lambdas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/Chap01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/model/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/model/Artist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/model/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/model/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/out/production/java8Lambdas/model/Track.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/Chap01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/model/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/model/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8Lambdas/src/model/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/multi-threading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/alive_thread/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/alive_thread/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/CalculateTask1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/CalculateTask2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/DaemonTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/DaemonThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/LoopTask4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/LoopTaskApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/LoopTaskApp2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/LoopTaskApp3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/NamedThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/ResultListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/SumObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/TaskResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/TaskValue1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/common/TaskValue2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/daemon_threads/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/daemon_threads/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/executers/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/executers/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/executers/App3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/naming_threads/App1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/naming_threads/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/naming_threads/App3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/naming_threads/App4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/returningValues/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/returningValues/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/returningValues/App3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/returningValues/App4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/returningValues/App5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/terminating_thread/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/threads/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/threads/App2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/threads/FirstTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/out/production/multi-threading/threads/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/alive_thread/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/alive_thread/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/CalculateTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/CalculateTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/DaemonTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/DaemonThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/LoopTask4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/LoopTaskApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/LoopTaskApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/LoopTaskApp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/ResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/SumObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/TaskResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/TaskValue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/common/TaskValue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/daemon_threads/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/daemon_threads/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/executers/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/executers/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/executers/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/naming_threads/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/naming_threads/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/naming_threads/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/naming_threads/App4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/returningValues/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/returningValues/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/returningValues/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/returningValues/App4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/returningValues/App5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/terminating_thread/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/threads/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multi-threading/src/threads/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcDemo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../oauth2-flows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/libraries/h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/db-files/db-pluralsight.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/h2-1.4.197.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/reflections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/annotations/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/annotations/PrimaryKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/db/DbLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/orm/EntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/orm/EntityManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/util/ColumnField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/util/MetaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflections/src/tutorial_01/util/PrimaryKeyField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/bike.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/java/com/agharibi/bike/BikeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/java/com/agharibi/bike/controllers/BikesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/java/com/agharibi/bike/models/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/java/com/agharibi/bike/repositories/BikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/java/com/agharibi/bike/sql/bike.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-angular/bike/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/artifacts/springdemo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/artifacts/springdemo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_beans_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_context_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_core_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_expression_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_web_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/libraries/Spring_Security_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-acl-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-aspects-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-cas-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-config-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-core-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-crypto-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-ldap-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-openid-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-remoting-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-taglibs-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/lib/spring-security-web-3.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/springdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/src/main/java/com/agharibi/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/src/main/java/com/agharibi/utils/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/classes/com/agharibi/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/classes/com/agharibi/utils/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/classes/com/agharibi/utils/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdemo/target/spring-demo-1.0-SNAPSHOT/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two-factor-auth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__com_google_guava_guava_r05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_orm_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/ByNameApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/NameableDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/WithId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/interfaces/WithName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/ServicePreconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/exception/MyEntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/model/NameableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/service/AbstractRawService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/service/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/service/RawService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/persistence/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/spring/util/Profiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/util/QueryConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/RestPreconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/UriMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/WebConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/controller/AbstractReadOnlyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/controller/SortingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exception/MyBadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exception/MyConflictException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exception/MyForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exception/MyPreconditionFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exception/MyResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/java/com/agharibi/web/util/RestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../usermanagement/usermanagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/artifacts/webDemo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/artifacts/webDemo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/src/main/java/com/agharibi/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/src/main/webapp/macys.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webDemo/webDemo.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ds/trees/BasicBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#1990#1991#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+                <element signature="e#2186#2187#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2263#2264#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2390#2391#0" expanded="true" />
+                <element signature="e#2420#2421#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2494#2495#0" expanded="true" />
+                <element signature="e#2534#2535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/apps/ContactManagerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1425">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#108#117#0" expanded="true" />
+                <element signature="e#4030#4031#0" expanded="true" />
+                <element signature="e#4070#4071#0" expanded="true" />
+                <element signature="e#4123#4124#0" expanded="true" />
+                <element signature="e#4173#4174#0" expanded="true" />
+                <element signature="e#4211#4212#0" expanded="true" />
+                <element signature="e#4250#4251#0" expanded="true" />
+                <element signature="e#4301#4302#0" expanded="true" />
+                <element signature="e#4349#4350#0" expanded="true" />
+                <element signature="e#4384#4385#0" expanded="true" />
+                <element signature="e#4420#4421#0" expanded="true" />
+                <element signature="e#4465#4466#0" expanded="true" />
+                <element signature="e#4507#4508#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ds/trees/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>linkedList is empty and there are no data to return=</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/stacks/Stack.java" />
+        <option value="$PROJECT_DIR$/src/stacks/BasicStack.java" />
+        <option value="$PROJECT_DIR$/src/stacks/ListStack.java" />
+        <option value="$PROJECT_DIR$/src/stacks/CardStackApp.java" />
+        <option value="$PROJECT_DIR$/src/queues/BasicQueue.java" />
+        <option value="$PROJECT_DIR$/src/queues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/queues/ListQueue.java" />
+        <option value="$PROJECT_DIR$/src/queues/SnowbirdLiftApp.java" />
+        <option value="$PROJECT_DIR$/src/lists/TrainLinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/lists/BasicLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/apps/TrainLinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/hashes/BasicHashTable.java" />
+        <option value="$PROJECT_DIR$/src/hashes/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/apps/MotorcycleOilChangeApp.java" />
+        <option value="$PROJECT_DIR$/src/trees/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/BasicBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/apps/ContactManagerApp.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="23" />
+    <option name="width" value="1883" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="hashes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="queues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549221873688" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="trees" />
+      <recent name="hashes" />
+      <recent name="lists" />
+      <recent name="queues" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ContactManagerApp">
+    <configuration name="CardStackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.CardStackApp" />
+      <module name="data-structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.ContactManagerApp" />
+      <module name="data-structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorcycleOilChangeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.MotorcycleOilChangeApp" />
+      <module name="data-structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowbirdLiftApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.SnowbirdLiftApp" />
+      <module name="data-structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainLinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.TrainLinkedListApp" />
+      <module name="data-structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContactManagerApp" />
+        <item itemvalue="Application.MotorcycleOilChangeApp" />
+        <item itemvalue="Application.SnowbirdLiftApp" />
+        <item itemvalue="Application.CardStackApp" />
+        <item itemvalue="Application.TrainLinkedListApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="827070af-0ec8-4d03-9440-bcb4e4768e39" name="Default Changelist" comment="" />
+      <created>1549121089679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549121089679</updated>
+      <workItem from="1549121090966" duration="32517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32517000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="7" y="23" width="1883" height="1057" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498642" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32908705" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5955414" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5774947" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2498642" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32908705" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.26433122" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.6772824" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ds/queues/ListQueue.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>data.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>end  == data.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end+1) % data.size() -1 == front;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end+1) % data.size() == front;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end) % data.size() == front;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>// (end+1)
+data.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(end+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>end - front + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ds/stacks/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/stacks/BasicStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/stacks/ListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/queues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/queues/BasicQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="method#dequeue#0;class#BasicQueue#0" />
+            <element signature="method#contains#0;class#BasicQueue#0" />
+            <element signature="method#access#0;class#BasicQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/queues/ListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/TrainLinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="e#108#118#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#4300#4301#0" expanded="true" />
+            <element signature="e#4365#4366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/CardStackApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/SnowbirdLiftApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/lists/BasicLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="62" column="103" selection-start-line="62" selection-start-column="103" selection-end-line="62" selection-end-column="103" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/hashes/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/hashes/BasicHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/MotorcycleOilChangeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/trees/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/trees/BasicBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2534#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/ContactManagerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#108#117#0" expanded="true" />
+            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4123#4124#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4211#4212#0" expanded="true" />
+            <element signature="e#4250#4251#0" expanded="true" />
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4349#4350#0" expanded="true" />
+            <element signature="e#4384#4385#0" expanded="true" />
+            <element signature="e#4420#4421#0" expanded="true" />
+            <element signature="e#4465#4466#0" expanded="true" />
+            <element signature="e#4507#4508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>data-structures</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
